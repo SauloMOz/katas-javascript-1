@@ -1,0 +1,99 @@
+function oneThroughTwenty() {
+  let contador = [];
+  for(let i = 1; i <= 20; i++){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(oneThroughTwenty());
+
+function evensToTwenty() {
+  let contador = [];
+  for(let i = 2; i <= 20; i+=2){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(evensToTwenty());
+
+function oddsToTwenty() {
+  let contador = [];
+  for(let i = 1; i <= 20; i+=2){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(oddsToTwenty());
+
+function multiplesOfFive() {
+  let contador = [];
+  for(let i = 5; i <= 100; i+=5){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(multiplesOfFive());
+
+function squareNumbers() {
+  let contador = [];
+  for (let i = 1; i <= 10; i++){
+    contador.push(i*i);
+  }
+  return contador;
+}
+
+console.log(squareNumbers());
+
+function countingBackwards() {
+  let contador = [];
+  for (let i = 20; i >= 1; i--){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(countingBackwards());
+
+function evenNumbersBackwards() {
+  let contador = [];
+  for (let i = 20; i >= 1; i-=2){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(evenNumbersBackwards());
+
+function oddNumbersBackwards() {
+  let contador = [];
+  for (let i = 19; i >= 1; i-=2){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(oddNumbersBackwards());
+
+function multiplesOfFiveBackwards() {
+  let contador = [];
+  for (let i = 100; i >= 1; i-=5){
+    contador.push(i);
+  }
+  return contador;
+}
+
+console.log(multiplesOfFiveBackwards());
+
+function squareNumbersBackwards() {
+  let contador = [];
+  for (let i = 10; i >= 1; i--){
+    contador.push(i*i);
+  }
+  return contador;
+}
+
+console.log(squareNumbersBackwards());
